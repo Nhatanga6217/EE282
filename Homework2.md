@@ -142,8 +142,8 @@ For a directory, `x` means you can pass through it, and `r` means you can list w
 
 Home and `Gene_list` get only `x`, so the labmate can walk through them but cannot see what else is there (such as `downregulated_adj`). The `upregulated` directory gets `r` and `x`, so the labmate can enter it and list its contents. The file gets `r`, so the labmate can view it.
 
-- `ls ~/Gene_list`: **No.** `Gene_list` has `x` but not `r` for the group, so listing it gives "Permission denied."
-- `cat ~/Gene_list/upregulated/upregulated_genes.csv`: **Yes.** Every directory on the path has `x`, and the file has `r`.
+- `ls ~yourusername/Gene_list`: **No.** `Gene_list` has `x` but not `r` for the group, so listing it gives "Permission denied."
+- `cat ~yourusername/Gene_list/upregulated/upregulated_genes.csv`: **Yes.** Every directory on the path has `x`, and the file has `r`.
 
 
 
