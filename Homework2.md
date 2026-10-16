@@ -34,7 +34,7 @@ rmdir downregulated                  # Step 7: remove the empty directory
 ### Background
 You have loaded your list of upregulated genes into R. The same data is stored two ways: as a data frame (`genes_df`) and as a matrix (`genes_mat`). Run the setup code below to create both.
 
-````
+```r
 genes_df <- data.frame(
   gene = c("INS", "GCG", "SST"),
   fold_change = c(5.1, 3.4, 2.2),
